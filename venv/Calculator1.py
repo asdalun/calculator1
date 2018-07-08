@@ -5,7 +5,6 @@ try:
 except:
     print("请输入正确的工资金额！")
 
-
 if (salary <= 3500):
     print("0")
 else:
@@ -25,4 +24,6 @@ else:
         sl = ts * 0.35 - 5505
     else:
         sl = ts * 0.45 - 13505
+
+
     print("the tax rate is: " + format(sl, ".2f"))
